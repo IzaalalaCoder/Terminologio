@@ -1,0 +1,27 @@
+.not, #error {
+    color : #CA1F3D;
+    font-weight: bold;
+}
+
+#sub_menu nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clickable, input[type="submit"] {
+    width: 20%;
+    border: 1px solid black;
+    margin: 2% auto;
+    font-weight: bolder;
+    font-size: smaller;
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#not {
+    font-weight: bolder;
+    margin: 0;
+}

@@ -1,0 +1,55 @@
+.comp {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    height: 5%;
+}
+
+.comp:last-child {
+    border-radius: 0 0 20px 20px;
+}
+
+.comp:first-child {
+    border-radius: 20px 20px 0 0;
+}
+
+.comp img {
+    width: 30px;
+    margin: 15px;
+    height: 30px;
+}
+
+.comp:hover {
+    background-color: #CA5555;
+}
+
+.comp:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.remove_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove_div img {
+    width: 30px;
+    height: 30px;
+}
+
+#admin_remove {
+    width: 50%;
+    margin: auto;
+}
+
+#components {
+    margin: 2% auto;
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+aside.right {
+    display: grid;
+}

@@ -1,0 +1,78 @@
+#auth * {
+    padding: 0;
+}
+
+#auth {
+    width: 100%;
+    margin-top: 5%;
+}
+
+form {
+    border: 1px solid white;
+    width: 70%;
+    margin: auto !important;
+}
+
+form div div {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+form div div:nth-child(1):hover {
+    /* background-color: hsla(hue, saturation, lightness, alpha) */
+    /* opacity: 0.5; */
+    background-color: #0D0D0D;
+    color: white;
+    margin-top: 2%;
+}
+
+form div div:nth-child(1):hover input {
+    color: white;
+}
+
+/* form div:hover label */
+
+form div:hover input,
+form div input:focus,
+form select:focus,
+form select:hover {
+    width: 50% !important;
+    /* opacity: 0.5; */
+    background-color: #0D0D0D;
+    color: white;
+    /* font-weight: bold; */
+}
+
+
+#error {
+    color : #CA1F3D;
+}
+
+option img {
+    width: 30px;
+    height: 30px;
+}
+
+div[id^="error"] {
+    font-weight: bolder;
+    color : #CA1F3D;
+    background-color: white;
+}
+
+select, form div input {
+    width: 25%;
+}
+
+.errorInput, .errorInput:focus {
+    border: 2px solid #CA1F3D;
+}
+
+.successInput, .successInput:focus {
+    border: 2px solid greenyellow;
+}
+
+form div input {
+    padding: 0.5% !important;
+    border-radius: 10px;
+}

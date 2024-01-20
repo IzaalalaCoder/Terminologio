@@ -1,0 +1,96 @@
+#concepts_div {
+    width: 90%;
+    margin: 5% auto;
+}
+
+#concepts_div div:nth-child(1) {
+    margin: 2% auto;
+}
+
+.concept {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
+
+.concept:hover {
+    background-color: #2C2D30;
+    /* opacity: 0.9; */
+    color: white;
+}
+
+.concept:hover .right * {
+    border-color: black;
+}
+
+.concept .right * {
+    border-color: white;
+}
+
+.concept:hover .cat {
+    border-color : white;
+}
+
+.repr {
+    width: 39%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* .concept:hover .repr {
+    width: 40%;
+} */
+
+.repr img {
+    width: 100%;
+    border-radius: 10px;
+    margin: 5px auto;
+    margin-left: 2%;
+}
+
+.information {
+    width: 100%;
+    margin: 0 40px;
+}
+
+.icons {
+    display: grid;
+}
+
+.icons button {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.icons button img {
+    width: 50px;
+    height: 50px;
+}
+
+.icons button:hover {
+    cursor: pointer;
+}
+
+.cat {
+    text-align: center;
+    margin: 25px;
+    font-weight: bolder;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.translate div.lang {
+    display: table-cell;
+    width: 50px;
+    font-weight: bolder;
+    height: 50px;
+}
+
+div.lang:hover, .concept:hover .title {
+    text-decoration: underline;
+}

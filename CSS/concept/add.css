@@ -1,0 +1,47 @@
+#form_comp, #concept_div {
+    width: 100%;
+    /* margin-top: 2.5%; */
+}
+
+.area {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    z-index: 5;
+    border-radius: 50%;
+    /* text-align: center; */
+    /* justify-items: center; */
+    font-weight: bold;
+    align-items: center;
+    opacity: 0.5;
+    justify-content: center;
+    /* TEXT-ALIGN: center; */
+    /* padding: 50%; */
+}
+
+.area:hover {
+    opacity: 1;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove {
+    cursor: pointer;
+}
+
+/* #image {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+} */
+
+#imported {
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 20px;
+}
