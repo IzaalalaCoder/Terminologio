@@ -1,1 +1,2 @@
 # Terminologio
+Encyclopédie numérique légendées.
