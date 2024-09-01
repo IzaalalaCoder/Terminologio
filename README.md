@@ -8,4 +8,7 @@ Il s'agit d'une application web permettant de légender des photos en plusieurs.
 
 Un accès administrateur est présent aussi pour gérer le contenu de l'application ainsi que les différentes catégories présents. L'accès se trouve dans le dossier administrator. 
 
-Avant d'utiliser l'application, faire attention à bien initialiser la base de données.
+# Attention
+
+- Avant d'utiliser l'application, faire attention à bien initialiser la base de données.
+- J'ai rencontré un souci sur Linux quant à la gestion des droits sur les images. Je n'ai pas compris comment y remédier.
